@@ -1,0 +1,61 @@
+{
+  "analysis": "post-hoc family-matched calibration using existing scores; no model inference",
+  "input": "C:\\Users\\aarya\\OneDrive\\Desktop\\SEM 5 SYLLABUS\\RAG RESEARCH PAPER\\pilot_scores.csv",
+  "n_rows": 720,
+  "n_calibration_questions": 40,
+  "n_test_questions": 80,
+  "question_overlap": 0,
+  "risk_target": 0.1,
+  "minimum_accepted_calibration": 5,
+  "original_clean_cutoff": 0.7407910823822021,
+  "bootstrap_repetitions": 10000,
+  "bootstrap_seed": 20261027,
+  "analysis_environment": {
+    "python": "3.12.14",
+    "pandas": "3.0.1",
+    "numpy": "2.3.5"
+  },
+  "sha256": {
+    "source_scores_csv": "ee5cba4c838be2d51121be2d967189f1b9735d28e2ea0b9947330b3739924876",
+    "analysis_script": "5b66c5a1a2689d67da91f58caaf1738e9ed038b107df4dea6a50ef1c0b6a67e4"
+  },
+  "thresholds": {
+    "clean": {
+      "threshold": 0.7407910823822021,
+      "status": "target_met_empirically",
+      "calibration_n": 80,
+      "calibration_accepted": 20,
+      "calibration_false_accepts": 2,
+      "calibration_empirical_risk": 0.1,
+      "target": 0.1,
+      "minimum_accepted": 5
+    },
+    "repeat": {
+      "threshold": 0.7736207246780396,
+      "status": "risk_target_infeasible",
+      "calibration_n": 80,
+      "calibration_accepted": 9,
+      "calibration_false_accepts": 1,
+      "calibration_empirical_risk": 0.1111111111111111,
+      "target": 0.1,
+      "minimum_accepted": 5
+    },
+    "distractor": {
+      "threshold": 0.7780055403709412,
+      "status": "risk_target_infeasible",
+      "calibration_n": 80,
+      "calibration_accepted": 11,
+      "calibration_false_accepts": 3,
+      "calibration_empirical_risk": 0.2727272727272727,
+      "target": 0.1,
+      "minimum_accepted": 5
+    }
+  },
+  "interpretation_limits": [
+    "exploratory post-hoc analysis, not a preregistered experiment",
+    "empirical calibration risk is not a formal risk guarantee",
+    "sufficiency is a support-presence proxy and does not measure generated-answer hallucination",
+    "same benchmark, one scorer, small question sample, one reviewer audit"
+  ],
+  "metrics_csv": "C:\\Users\\aarya\\OneDrive\\\u30c9\u30ad\u30e5\u30e1\u30f3\u30c8\\ChatGPT\\research paper\\output\\family_calibration_analysis\\family_cutoff_test_metrics.csv"
+}

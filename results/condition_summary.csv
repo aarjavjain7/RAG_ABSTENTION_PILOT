@@ -1,0 +1,7 @@
+condition,n_questions,n_answered,coverage,structural_false_accept_risk,false_accept_rate_on_insufficient,unnecessary_abstention_rate_on_sufficient,mean_score,coverage_95ci,structural_false_accept_risk_95ci,unnecessary_abstention_rate_on_sufficient_95ci
+sufficient_clean,80,38,0.475,0.0,,0.525,0.7165691442787647,"[0.3746875, 0.5875]","[0.0, 0.0]","[0.4125, 0.6253124999999983]"
+insufficient_clean,80,9,0.1125,1.0,0.1125,,0.6164213504642249,"[0.05, 0.1875]","[1.0, 1.0]","[None, None]"
+sufficient_repeat,80,21,0.2625,0.0,,0.7375,0.6987504079937935,"[0.175, 0.3625]","[0.0, 0.0]","[0.6375, 0.825]"
+insufficient_repeat,80,13,0.1625,1.0,0.1625,,0.635313468426466,"[0.0875, 0.25]","[1.0, 1.0]","[None, None]"
+insufficient_distractor,80,10,0.125,1.0,0.125,,0.6477945301681757,"[0.0625, 0.2]","[1.0, 1.0]","[None, None]"
+restored_distractor,80,20,0.25,0.0,,0.75,0.6968736704438925,"[0.1625, 0.3375]","[0.0, 0.0]","[0.6625, 0.8375]"
